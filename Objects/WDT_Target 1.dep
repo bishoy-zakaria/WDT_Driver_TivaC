@@ -1,0 +1,46 @@
+Dependencies for Project 'WDT', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x5FD294C5)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\headers-I.\RTE\_Target_1-IC:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (WDT.h)(0x5FD2C9DA)
+I (.\headers\Int_Ctrl.h)(0x5FAEF67A)
+I (.\headers\MCU_Regs.h)(0x5FD27F91)
+I (.\headers\Bit_Math.h)(0x5FAEF5F3)
+I (.\headers\STD.h)(0x5F119CA7)
+I (.\headers\IntCtrl_Types.h)(0x5FAEF6AF)
+I (.\headers\IntCtrl_Lcfg.h)(0x5FD25164)
+I (WDT_Cfg.h)(0x5FD2C5F4)
+F (.\sources\Int_Ctrl.c)(0x5FAF0AE8)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\headers-I.\RTE\_Target_1-IC:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\int_ctrl.o --omf_browse .\objects\int_ctrl.crf --depend .\objects\int_ctrl.d)
+I (.\headers\Int_Ctrl.h)(0x5FAEF67A)
+I (.\headers\MCU_Regs.h)(0x5FD27F91)
+I (.\headers\Bit_Math.h)(0x5FAEF5F3)
+I (.\headers\STD.h)(0x5F119CA7)
+I (.\headers\IntCtrl_Types.h)(0x5FAEF6AF)
+I (.\headers\IntCtrl_Lcfg.h)(0x5FD25164)
+F (.\WDT.c)(0x5FD2CD1D)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\headers-I.\RTE\_Target_1-IC:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\wdt.o --omf_browse .\objects\wdt.crf --depend .\objects\wdt.d)
+I (WDT.h)(0x5FD2C9DA)
+I (.\headers\Int_Ctrl.h)(0x5FAEF67A)
+I (.\headers\MCU_Regs.h)(0x5FD27F91)
+I (.\headers\Bit_Math.h)(0x5FAEF5F3)
+I (.\headers\STD.h)(0x5F119CA7)
+I (.\headers\IntCtrl_Types.h)(0x5FAEF6AF)
+I (.\headers\IntCtrl_Lcfg.h)(0x5FD25164)
+I (WDT_Cfg.h)(0x5FD2C5F4)
+F (.\WDT.h)(0x5FD2C9DA)()
+F (.\WDT_Cfg.h)(0x5FD2C5F4)()
+F (.\sources\MCU.c)(0x5FBD30A7)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\headers-I.\RTE\_Target_1-IC:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\mcu.o --omf_browse .\objects\mcu.crf --depend .\objects\mcu.d)
+I (.\headers\MCU_Lcfg.h)(0x5FD294C5)
+I (.\headers\MCU.h)(0x5FBC4E02)
+I (.\headers\STD.h)(0x5F119CA7)
+I (.\headers\MCU_Regs.h)(0x5FD27F91)
+I (.\headers\Bit_Math.h)(0x5FAEF5F3)
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x51B6E406)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x5FD294F3)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\headers-I.\RTE\_Target_1-IC:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\system_tm4c123.o --omf_browse .\objects\system_tm4c123.crf --depend .\objects\system_tm4c123.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (C:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\20112\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\20112\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)

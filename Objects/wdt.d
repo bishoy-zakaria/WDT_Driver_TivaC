@@ -1,0 +1,10 @@
+.\objects\wdt.o: WDT.c
+.\objects\wdt.o: WDT.h
+.\objects\wdt.o: .\headers\Int_Ctrl.h
+.\objects\wdt.o: .\headers\MCU_Regs.h
+.\objects\wdt.o: .\headers\Bit_Math.h
+.\objects\wdt.o: .\headers\STD.h
+.\objects\wdt.o: .\headers\IntCtrl_Types.h
+.\objects\wdt.o: .\headers\IntCtrl_Lcfg.h
+.\objects\wdt.o: WDT_Cfg.h
+.\objects\wdt.o: WDT.h
